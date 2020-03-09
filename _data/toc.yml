@@ -1,23 +1,60 @@
 - title: Documentation
   url: docs
   links:
-    - title: "Getting Started"
+    - title: "idari İşler"
       url: "docs/getting-started"
       children:
-        - title: Features
+        - title: İşe Başlangıç Rehberleri
           url: "docs/getting-started#getting-started"
-        - title: Development
+        - title:  Görev Tanımları
           url: "docs/getting-started#development"
-        - title: Customization
+        - title: Grading
           url: "docs/getting-started#customization"
-    - title: "Extras"
-      url: "docs/extras"
+        - title: İş ilanları
+          url: "docs/getting-started#customization"
+    - title: "SDLC"
+      url: "docs/sdlc"
       children:
-        - title: Quizzes
-          url: "docs/extras/example-quiz"
-        - title: Tags Page
+        - title: Takım yapısı
+          url: "docs/sdlc/takim-yapisi"
+        - title: Scrum, Roller, Toplantılar
           url: "tags"
-    - title: "About"
+        - title: TFS/AzureDevops kullanımı
+          url: "tags"
+        - title: Git kullanımı, branch stratejisi
+          url: "tags"
+        - title: Security standartları
+          url: "tags"
+    - title: "Sistem"
       url: "about"
-    - title: "News"
-      url: "news"
+      children:
+        - title: Genel Mimari
+          url: ""
+          children:
+            - title: KeyCloak
+              url: "docs/sdlc/takim-yapisi"
+            - title: RabbitMQ
+              url: "tags"
+            - title: Strapi
+              url: "tags"
+            - title: Graylog
+              url: "tags"
+            - title: QlikView/PowerBI
+              url: "tags"
+    - title: "Takım"
+      url: "about"
+      children:
+        - title: BroCode
+          url: ""
+          children:
+            - title: DoD
+              url: "docs/sdlc/takim-yapisi"
+            - title: Retro Notes
+              url: "tags"
+            - title: Strapi
+              url: "tags"
+            - title: Graylog
+              url: "tags"
+            - title: QlikView/PowerBI
+              url: "tags"
+       
